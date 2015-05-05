@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: JOTAT
+Build-Jdk: 1.8.0_20
+Implementation-Version: 0.6
+Implementation-Vendor-Id: org.vaadin.addons
+Created-By: Maven Integration for Eclipse
+Implementation-Title: BorderLayout
+Vaadin-License-Title: Apache License 2.0
+Vaadin-Package-Version: 1
+
