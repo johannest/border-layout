@@ -42,6 +42,7 @@ public class BorderlayoutUI extends UI {
 
 	private Component getSimpleExamle() {
 		VerticalLayout vlo = new VerticalLayout();
+		vlo.setMargin(true);
 		vlo.setHeight("100%");
 		vlo.setWidth("100%");
 		vlo.setSpacing(true);
@@ -140,8 +141,8 @@ public class BorderlayoutUI extends UI {
 		hlo2.setSpacing(true);
 		hlo3.setSpacing(true);
 		final Button button1 = new Button("Set height 100%");
-		final Button button2 = new Button("Set height 500px");
-		final Button button3 = new Button("Set width 400px");
+		final Button button2 = new Button("Set height 300px");
+		final Button button3 = new Button("Set width 300px");
 		final Button button4 = new Button("Set size full");
 		final Button button5 = new Button("Remove center");
 		final Button button6 = new Button("Remove south");
@@ -181,14 +182,14 @@ public class BorderlayoutUI extends UI {
 			private static final long serialVersionUID = 7716267156088629379L;
 
 			public void buttonClick(ClickEvent event) {
-				bl.setHeight("500px");
+				bl.setHeight("300px");
 			}
 		});
 		button3.addClickListener(new Button.ClickListener() {
 			private static final long serialVersionUID = 7716267156088629379L;
 
 			public void buttonClick(ClickEvent event) {
-				bl.setWidth("400px");
+				bl.setWidth("300px");
 			}
 		});
 		button4.addClickListener(new Button.ClickListener() {
