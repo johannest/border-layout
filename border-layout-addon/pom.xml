@@ -88,6 +88,7 @@
 						<manifestEntries>
 							<Vaadin-Package-Version>1</Vaadin-Package-Version>
 							<Vaadin-License-Title>${Vaadin-License-Title}</Vaadin-License-Title>
+							<Implementation-Title>BorderLayout</Implementation-Title>
 						</manifestEntries>
 					</archive>
 				</configuration>
