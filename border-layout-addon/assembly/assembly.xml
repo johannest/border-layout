@@ -15,6 +15,13 @@
 
   <fileSets>
     <fileSet>
+      <directory>..</directory>
+      <includes>
+        <include>LICENSE.txt</include>
+        <include>README.md</include>
+      </includes>
+    </fileSet>
+    <fileSet>
       <directory>target</directory>
       <outputDirectory></outputDirectory>
       <includes>
