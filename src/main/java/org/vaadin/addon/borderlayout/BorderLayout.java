@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import com.vaadin.shared.ui.MarginInfo;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Label;
@@ -98,6 +99,17 @@ public class BorderLayout extends VerticalLayout {
 	public void setMargin(boolean margin) {
 		mainLayout.setMargin(margin);
 		markAsDirty();
+	}
+	
+	@Override
+	public void setMargin(MarginInfo marginInfo) {
+	    mainLayout.setMargin(marginInfo);
+	    markAsDirty();
+	}
+	
+	@Override
+	public MarginInfo getMargin() {
+	    return mainLayout.getMargin();
 	}
 
 	@Override
